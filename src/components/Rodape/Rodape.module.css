@@ -1,0 +1,49 @@
+.footer {
+    background-color: black;
+}
+
+.limitar_secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container_logo_informacoes {
+    display: flex;
+    color: white;
+    padding: 100px 20px;
+    justify-content: space-between;
+}
+
+.container_logo_informacoes img {
+    width: auto;
+    height: 100px;
+}
+
+.container_logo_informacoes div {
+    width: 20%;
+}
+
+.container_logo_informacoes p {
+    font-size: 16px;
+}
+
+.direito_autoral {
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container_logo_informacoes {
+        align-items: center;
+        flex-direction: column;
+        padding: 80px 0;
+    }
+
+    .container_logo_informacoes div {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
