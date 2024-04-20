@@ -24,7 +24,7 @@ const Rodape = () => {
                 </div>
             </div>
             <div className={`${estilo.limitar_secao} ${estilo.direito_autoral}`}>
-                <p>Gelateria. Orgulhosamente desenvolvido por "nome do desenvolvedor"</p>
+                <p>Gelateria. Orgulhosamente desenvolvido por Felipe Cordeiro</p>
             </div>
         </footer>
     )
